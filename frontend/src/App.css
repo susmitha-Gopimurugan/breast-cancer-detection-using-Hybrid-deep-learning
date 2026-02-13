@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+  background: linear-gradient(120deg, #0b486b, #f56217);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  width: 380px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.glass-card h2 {
+  margin-bottom: 10px;
+}
+
+.upload-box {
+  display: block;
+  border: 2px dashed white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.upload-box span {
+  font-size: 16px;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.predict-btn {
+  width: 100%;
+  padding: 12px;
+  background: #00c6ff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+}
+
+.predict-btn:hover {
+  background: #00e6ff;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.safe {
+  background: rgba(0, 255, 0, 0.3);
+}
+
+.danger {
+  background: rgba(255, 0, 0, 0.3);
+}

@@ -1,0 +1,19 @@
+# Backend
+Backend/dataset/
+Backend/uploads/
+Backend/venv/
+Backend/model/*.h5
+Backend/model/*.keras
+Backend/*.h5
+Backend/*.autoencoder_model.h5
+Backend/*.classifier.h5
+# Frontend
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
